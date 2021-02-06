@@ -600,9 +600,9 @@ You can create footnotes like this[^fn1] and this[^fn2].
 
 
 
-<img src="imgs/0011.jpg" alt="Cosmos08" style="zoom:15%;" />
+<img src="https://cdn.jsdelivr.net/gh/liwuqingxin/nlnet-blogs@main/src/2020/imgs/0011.jpg" alt="Cosmos08" style="zoom:15%;" />
 
-<video src="imgs/0012.mp4" />
+<video src="https://cdn.jsdelivr.net/gh/liwuqingxin/nlnet-blogs@main/src/2020/imgs/0012.mp4" />
 
 <table>
   <tr>
