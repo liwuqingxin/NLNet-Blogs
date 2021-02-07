@@ -1,4 +1,4 @@
-这篇文档仅作为markdown在cnblogs中的渲染效果展示。第一部分[NLNet' Samples](https://www.cnblogs.com/liwuqingxin/p/14365612.html#nlnet-samples)为自定义内容的效果展示。==NOTE== 第二、三部分的[Markdown Reference（From Typora）](https://www.cnblogs.com/liwuqingxin/p/14365612.html#markdown-reference%EF%BC%88from-typora%EF%BC%89)和[Example（From OneDark Theme for Typora）](https://www.cnblogs.com/liwuqingxin/p/14365612.html#example%EF%BC%88from-onedark-theme-for-typora%EF%BC%89)内容==非原创==，这里仅作为效果展示用。
+这篇文档仅作为markdown在cnblogs中的渲染效果展示。第一部分[NLNet' Samples](https://www.cnblogs.com/liwuqingxin/p/14365612.html#nlnet-samples)为自定义内容的效果展示。==NOTE== 第二、三部分的[Markdown Reference（From Typora）](https://www.cnblogs.com/liwuqingxin/p/14365612.html#markdown-reference%EF%BC%88from-typora%EF%BC%89)和[Example（From OneDark Theme for Typora）](https://www.cnblogs.com/liwuqingxin/p/14365612.html#example%EF%BC%88from-onedark-theme-for-typora%EF%BC%89)内容==非原创==，这里仅作为效果展示用。图标连源于[iconfont](https://www.iconfont.cn/)，感谢<i id="love" class="icon" size="32"> </i>！
 
 想用这套主题吗？[传送门](https://github.com/liwuqingxin/Themes)
 
@@ -6,14 +6,15 @@
 
 ## 预设图标
 
-预设图标主要通过css样式预设。使用方式如下代码。==注意==，`class="icon"`不能缺少，且必须使用\</i\>作为标签结尾。另外如果希望在Typora同套主题受到较好的支持，标签内部请输入一个空格。
+预设图标主要通过css样式预设，支持hover动画，`后续将会支持持续动画`等。使用方式如下代码。==注意==，`class="icon"`不能缺少，且必须使用`</i>`作为标签结尾。另外如果希望在Typora同套主题受到较好的支持，标签内部请输入一个空格。
 
 ```html
 <i id="id" class="icon"> </i>
 <i id="id" class="icon" size="16"> </i>
+<i id="id" class="icon" style="width:22px;height:22px"> </i>
 ```
 
-目前支持的size有：8、12、16、20、24、32、64。支持的id有：
+目前预设支持的size有：8、12、16、20、24、32、64，其他尺寸请使用第三种方式，如dragon - 54px：<i id="dragon" class="icon" style="width:54px;height:54px"> </i>，通过css属性自行设置。支持的id有：
 
 | id          | icon                                         | id           | icon                                          |
 | :---------- | :------------------------------------------- | :----------- | :-------------------------------------------- |
@@ -26,6 +27,18 @@
 | warn2       | <i id="warn2" class="icon" size="32"> </i>   | cloud        | <i id="cloud" class="icon" size="32"> </i>    |
 | warn3       | <i id="warn3" class="icon" size="32"> </i>   | question     | <i id="question" class="icon" size="32"> </i> |
 | going       | <i id="going" class="icon" size="32"> </i>   |              |                                               |
+
+## 类Github的徽章
+
+使用方法：
+
+```html
+行内徽章见右边<tag>我的博客</tag><cnt>[NLNet (cnblogs)](https://www.cnblogs.com/liwuqingxin/)</cnt>我是行内徽章的小尾巴。
+```
+
+效果如下：
+
+行内徽章见右边<tag>我的博客</tag><cnt>[NLNet (cnblogs)](https://www.cnblogs.com/liwuqingxin/)</cnt>我是行内徽章的小尾巴。
 
 ## image的alt支持的配置
 
