@@ -22,7 +22,7 @@ The first flash that happens when I switch from page 1 to page 2 is white. I gue
 
 ##### Gif #1:
 
-![Original Behavior](https://cdn.jsdelivr.net/gh/liwuqingxin/nlnet-blogs@main/src/2020/imgs/Original Behavior.gif)
+![Original Behavior](https://cdn.jsdelivr.net/gh/liwuqingxin/nlnet-blogs@main/src/2022/imgs/OriginalBehavior.gif)
 
 In the picture #2 we can see the details. There are three state between 'original page' and 'target page'. They are:
 
@@ -32,7 +32,7 @@ In the picture #2 we can see the details. There are three state between 'origina
 
 ##### Pcture #2:
 
-![](https://cdn.jsdelivr.net/gh/liwuqingxin/nlnet-blogs@main/src/2020/imgs/Origial Behavior 2.png)
+![](https://cdn.jsdelivr.net/gh/liwuqingxin/nlnet-blogs@main/src/2022/imgs/OrigialBehavior2.png)
 
 ## Solution for the three state
 
@@ -245,4 +245,4 @@ There are three change events fired when we close a TabItem. In first event it i
 
 ## Enjoy :)
 
-![](https://cdn.jsdelivr.net/gh/liwuqingxin/nlnet-blogs@main/src/2020/imgs/New Behavior2.gif)
+![](https://cdn.jsdelivr.net/gh/liwuqingxin/nlnet-blogs@main/src/2022/imgs/NewBehavior2.gif)
